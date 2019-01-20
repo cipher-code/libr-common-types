@@ -6,5 +6,6 @@ export default interface Post {
     description : string,
     content : string,
     timestamp : number,
-    interactions : number
+    interactions : number,
+    nsfw: boolean
 }
