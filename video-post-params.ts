@@ -1,7 +1,3 @@
-export default interface VideoPostParams {
-    tags : Array<string>,
-    description : string,
-    extension? : string,
-    tempFilename? : string,
-    nsfw? : boolean
-}
+import AssetPostParams from "./asset-post-params";
+
+export default interface VideoPostParams extends AssetPostParams {}

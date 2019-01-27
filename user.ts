@@ -14,6 +14,8 @@ export default interface User {
     sexuality : string;
     relationshipStyle : string;
     relationshipStatus : string;
+    avatarUrl? : string;
+    backgroundUrl? : string;
     password? : string|null;
     apiToken? : string|null;
 }

@@ -1,6 +1,3 @@
-export default interface TextPostParams {
-    tags : Array<string>,
-    description : string,
-    content : string,
-    nsfw? : boolean
-}
+import PostParams from "./post-params";
+
+export default interface TextPostParams extends PostParams {}
