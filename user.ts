@@ -7,9 +7,10 @@ export default interface User {
     userId? : string;
     username : string;
     email : string;
-    dob : string;
+    dob : number;
     displayAge : boolean;
     nsfw : boolean;
+    showNsfw : boolean;
     gender : string;
     sexuality : string;
     relationshipStyle : string;
