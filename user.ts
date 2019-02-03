@@ -7,16 +7,20 @@ export default interface User {
     userId? : string;
     username : string;
     email : string;
+    backgroundUrl? : string;
+    avatarUrl? : string;
     dob : number;
+    gender? : string;
+    sexuality? : string;
+    relationshipStatus? : string;
+    relationshipStyle? : string;
     displayAge : boolean;
+    bio? : string,
+    city? : string,
+    state? : string,
+    country? : string
     nsfw : boolean;
     showNsfw : boolean;
-    gender : string;
-    sexuality : string;
-    relationshipStyle : string;
-    relationshipStatus : string;
-    avatarUrl? : string;
-    backgroundUrl? : string;
     password? : string|null;
     apiToken? : string|null;
 }
