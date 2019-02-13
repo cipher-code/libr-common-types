@@ -1,5 +1,7 @@
 export default interface PostParams {
     tags : Array<string>,
     content : string,
-    nsfw? : boolean
+    sourcePostId?: number,
+    comment?: string
+    nsfw? : boolean,
 }
