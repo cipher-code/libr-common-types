@@ -1,6 +1,7 @@
 export default interface Post {
     postId? : string,
-    sourcePostId : string,
+    sourcePostId? : string,
+    sourceUsername? : string,
     userId : string,
     username? : string,
     tags : Array<string>,
@@ -8,9 +9,10 @@ export default interface Post {
     assetUrl? : string,
     assetContentType? : string,
     content : string,
-    comment : string,
+    comment? : string,
     timestamp : number,
     likes : number,
     interactions : number,
+    repostCount : number,
     nsfw: boolean
 }

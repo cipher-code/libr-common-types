@@ -21,6 +21,7 @@ export default interface User {
     country? : string
     nsfw : boolean;
     showNsfw : boolean;
+    notificationsPermission? : boolean;
     password? : string|null;
     apiToken? : string|null;
 }
