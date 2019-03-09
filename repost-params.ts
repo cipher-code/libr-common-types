@@ -7,6 +7,7 @@ import PostParams from './post-params';
 export default interface RepostParams extends PostParams {
     username : string,
     sourcePostId: string,
+    sourceUserId : string,
     sourceUsername : string,
     comment : string,
     tags : Array<string>,
