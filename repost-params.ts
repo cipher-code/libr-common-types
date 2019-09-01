@@ -9,6 +9,7 @@ export default interface RepostParams extends PostParams {
     sourcePostId: string,
     sourceUserId : string,
     sourceUsername : string,
+    repostedFromUsername? : string,
     comment : string,
     tags : Array<string>,
     type : string,
