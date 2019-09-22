@@ -14,7 +14,7 @@ export default interface User {
     sexuality? : string;
     relationshipStatus? : string;
     relationshipStyle? : string;
-    displayAge : boolean;
+    displayAge? : boolean;
     bio? : string,
     city? : string,
     state? : string,

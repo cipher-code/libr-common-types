@@ -4,7 +4,7 @@ export default interface Post {
     sourceUsername? : string,
     repostedFromUsername? : string,
     userId : string,
-    username : string,
+    username? : string,
     tags : Array<string>,
     type : string,
     assetUrl? : string,
