@@ -9,7 +9,7 @@ export default interface User {
     email : string;
     backgroundUrl? : string;
     avatarUrl? : string;
-    dob : number;
+    dob? : number;
     gender? : string;
     sexuality? : string;
     relationshipStatus? : string;

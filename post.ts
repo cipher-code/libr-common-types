@@ -9,6 +9,7 @@ export default interface Post {
     type : string,
     assetUrl? : string,
     assetContentType? : string,
+    assetHash?: string,
     content : string,
     comment? : string,
     timestamp : number,
