@@ -24,4 +24,5 @@ export default interface User {
     notificationsPermission? : boolean;
     password? : string|null;
     apiToken? : string|null;
+    unsubscribeEmails? : boolean
 }
